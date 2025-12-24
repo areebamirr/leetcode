@@ -1,5 +1,6 @@
 
 strs = ["flower","flow","flight"]
+strs = sorted(strs, key=len)
 
 c_string = ""
 for i in range(2):
@@ -18,4 +19,3 @@ if count == len(strs):
 else:
     print("")
 
-    
