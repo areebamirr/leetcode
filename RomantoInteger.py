@@ -18,5 +18,5 @@ for i in range(n-1):
         total += current_val
     
 total += values[s[n-1]]
-
+    
 print(total)
